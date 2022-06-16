@@ -1,0 +1,18 @@
+.footer-part-one {
+    background-color: #2c7c37;
+    padding: 2%;
+}
+
+.footer-part-one-picture {
+    margin: auto;
+    width: 17%;
+}
+
+.footer-part-one-picture img {
+    max-width: 100%;
+}
+
+.footer-part-two {
+    background-color: #000000;
+    padding: 1.5%;
+}

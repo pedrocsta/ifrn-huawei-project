@@ -1,4 +1,4 @@
-/* --------- VÍDEO DE BACKGROUND ---------- */
+/* ---------- Background vídeo ------------ */
 .video-background-holder {
     position: relative;
     background-color: black;
@@ -43,6 +43,63 @@ code {
     padding: 0 0.15rem;
     background: #f5f5f5;
     border-radius: 0.2rem;
+}
+
+.btn-bg-video {
+    padding: .8rem 1rem;
+}
+
+/* ---------------------------------------- */
+/* ------------ About project ------------- */
+
+.about-project {
+    margin: 5% auto 6% auto;
+}
+
+/* ---------------------------------------- */
+/* ------------ Section Cards ------------- */
+.carousel-section {
+    background-color: #f7f7f7;
+    padding: 2% 0;
+}
+
+.section-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.info-section {
+    text-align: center;
+}
+
+.row-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-icons {
+    color: #157347;
+}
+
+/* ---------------------------------------- */
+/* ---------- Coordenação Cards ----------- */
+
+.coordenation-section {
+    padding: 2% 20%;
+}
+
+.coordinators-div {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+
+.coordinators {
+    border: 1px solid gray;
+    padding: 4% 2%;
+    box-shadow: 0 0 .5rem gray;
+    text-align: center;
 }
 
 /* ---------------------------------------- */

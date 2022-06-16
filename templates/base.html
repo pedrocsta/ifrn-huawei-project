@@ -3,18 +3,29 @@
 <html lang="pt-BR">
     <head>
         {% include 'parciais/_meta.html' %}
-        <!-- Custom & Default Styles -->
-        {% block 'estilos' %}{% endblock 'estilos' %}
 
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        
+        <!-- Custom & Default Styles -->
+        {% block 'estilos' %}{% endblock 'estilos' %}
+        <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+        
         <title>{% block 'titulo' %}{% endblock 'titulo' %}</title>
 
     </head>
 
     <body>
-        {% include 'parciais/_nav.html' %}
-        {% block 'conteudo' %}{% endblock 'conteudo' %}
+        <header>
+            {% include 'parciais/_nav.html' %}
+        </header>
+        
+        <main>
+            {% block 'conteudo' %}{% endblock 'conteudo' %}
+        </main>
+        <footer>
+            {% include 'parciais/_footer.html' %}
+        </footer>
 
         <!-- Bootstrap core JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
