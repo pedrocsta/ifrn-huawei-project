@@ -50,13 +50,7 @@ code {
 }
 
 /* ---------------------------------------- */
-/* ------------ About project ------------- */
 
-.about-project {
-    margin: 5% auto 6% auto;
-}
-
-/* ---------------------------------------- */
 /* ------------ Section Cards ------------- */
 .carousel-section {
     background-color: #f7f7f7;
@@ -64,18 +58,13 @@ code {
 }
 
 .section-cards {
-    display: flex;
     justify-content: space-between;
     padding: 2% 10%;
 }
 
-.info-section {
-    text-align: center;
-}
-
 .row-card {
-    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .color-icons {
@@ -83,7 +72,7 @@ code {
 }
 
 /* ---------------------------------------- */
-/* ---------- Coordenação Cards ----------- */
+/* ---------- Coordenation Cards ----------- */
 
 .coordenation-section {
     padding: 2% 20%;
@@ -99,7 +88,6 @@ code {
     border: 1px solid gray;
     padding: 4% 2%;
     box-shadow: 0 0 .5rem gray;
-    text-align: center;
 }
 
 /* ---------------------------------------- */
