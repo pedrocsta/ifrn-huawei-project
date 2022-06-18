@@ -1,0 +1,219 @@
+/* -------------------------------------------------- PÁGINA INICIAL -------------------------------------------------- */
+/* Background vídeo */
+.video-background-holder {
+    position: relative;
+    background-color: black;
+    height: calc(100vh - 72px);
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-background-holder video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+    position: relative;
+    z-index: 2;
+}
+
+.video-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+code {
+    padding: 0 0.15rem;
+    background: #f5f5f5;
+    border-radius: 0.2rem;
+}
+
+.btn-bg-video {
+    padding: .8rem 1rem;
+}
+
+
+/* Section Cards */
+.carousel-section {
+    background-color: #f7f7f7;
+    padding: 2% 0;
+}
+
+.section-cards {
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.row-card {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-icons {
+    color: #157347;
+}
+
+
+/* Coordenation Cards */
+.coordenation-section {
+    padding: 2% 20%;
+}
+
+.coordinators-div {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+
+.coordinators {
+    border: 1px solid gray;
+    padding: 4% 2%;
+    box-shadow: 0 0 .5rem gray;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* --------------------------------------------------- LABORATÓRIOS -------------------------------------------------- */
+.conteudo-lab {
+    margin: 0 10%;
+}
+
+.imgs-lab {
+    justify-content: space-between;
+}
+
+.card-img {
+    width: 300px;
+}
+
+.text-ident {
+    text-indent: 2%;
+}
+
+.list-alf {
+    list-style-type: lower-alpha;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* --------------------------------------------------- CERTIFICAÇÃO --------------------------------------------------- */
+.section-certification {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.texts-certification {
+    text-align: justify;
+    text-indent: 2%;
+    font-size: 17px;
+}
+
+.linha {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.link-certification {
+    color: #157347;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link-certification:hover {
+    color: #000000;
+}
+
+.info-certification {
+    color: #adadad;
+    font-size: 14px;
+    text-indent: 0%;
+}
+
+.h4-01 {
+    letter-spacing: -0.3px;
+}
+
+.projects-content {
+    padding-left: 5%;
+}
+
+.project-links a {
+    color: #157347;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------- CONTATO ----------------------------------------------------- */
+.contacts-section {
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+
+.card-contact {
+    width: 50rem;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: #157347;
+}
+
+.instituto-section {
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------- RODAPÉ ------------------------------------------------------ */
+.footer-part-one {
+    background-color: #2c7c37;
+    padding: 2%;
+}
+
+.footer-part-one-picture {
+    margin: auto;
+    width: 17%;
+}
+
+.footer-part-one-picture img {
+    max-width: 100%;
+}
+
+.footer-part-two {
+    background-color: #000000;
+    padding: 1.5%;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------- */
