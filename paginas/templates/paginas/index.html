@@ -18,8 +18,8 @@
                             <p class="lead mb-0">
                                 O Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (IFRN) em parceria com a Huawei, multinacional chinesa de tecnologia, oferece cursos de certificação para o setor de Tecnologia da Informação e da Comunicação (TIC).
                             </p>
-                            <a class=" btn-bg-video btn btn-success mt-5" href="#" role="button">Saiba mais</a>
-                            <a class=" btn-bg-video btn btn-success mt-5" href="#" role="button">Cursos</a>
+                            <a class=" btn-bg-video btn btn-success mt-5" href="{% url 'ict-academy' %}" role="button">Saiba mais</a>
+                            <a class=" btn-bg-video btn btn-success mt-5" href="#cursos" role="button">Cursos</a>
                         </div>
                     </div>
                 </div>
@@ -59,6 +59,7 @@
             <!-- End -->
 
             <!-- Carousel section -->
+            <a name="cursos"></a>
             <div class="carousel-section">
                 <div class="text-center">
                     <h2>Cursos e Inscrições</h2>
@@ -89,7 +90,7 @@
                                                 <i class="fa-solid fa-calendar-days color-icons"></i>
                                                 <span>Em breve</span>
                                             </div>
-                                            <a href="#" class="btn btn-success">Saiba Mais</a>
+                                            <a href="{% url 'cloud-service' %}" class="btn btn-success">Saiba Mais</a>
                                         </div> <!-- end card row -->
                                     </div> <!-- end card body -->
                                 </div> <!-- end card -->
@@ -109,7 +110,7 @@
                                                 <i class="fa-solid fa-calendar-days color-icons"></i>
                                                 <span>Em breve</span>
                                             </div>
-                                            <a href="#" class="btn btn-success">Saiba Mais</a>
+                                            <a href="{% url 'artificial-intelligence' %}" class="btn btn-success">Saiba Mais</a>
                                         </div> <!-- end card row -->
                                     </div> <!-- end card body -->
                                 </div> <!-- end card -->
@@ -129,7 +130,7 @@
                                                 <i class="fa-solid fa-calendar-days color-icons"></i>
                                                 <span>Em breve</span>
                                             </div>
-                                            <a href="#" class="btn btn-success">Saiba Mais</a>
+                                            <a href="{% url 'datacom' %}" class="btn btn-success">Saiba Mais</a>
                                         </div> <!-- end card row -->
                                     </div> <!-- end card body -->
                                 </div> <!-- end card -->
@@ -153,7 +154,7 @@
                                                 <i class="fa-solid fa-calendar-days color-icons"></i>
                                                 <span>Em breve</span>
                                             </div>
-                                            <a href="#" class="btn btn-success">Saiba Mais</a>
+                                            <a href="{% url '5g-networks' %}" class="btn btn-success">Saiba Mais</a>
                                         </div> <!-- end card row -->
                                     </div> <!-- end card body -->
                                 </div> <!-- end card -->
