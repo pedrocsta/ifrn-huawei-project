@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block 'titulo' %}Login | Huawei - IFRN{% endblock 'titulo' %}
+
+{% block 'conteudo' %}
+    <div class="back-login">
+        <div class="alin-login">
+            <section class="pe-4">
+                <img src="{% static 'img/huawei-ict-logo-2.png' %}" alt="">
+            </section>
+            <section class="cont-login">
+                <form action="" class="login">
+                    <section>
+                        <div class="input-group mb-3 lin-log">
+                            <span class="input-group-text dark-inp" id="basic-addon1">
+                                <i class="fa-solid fa-envelope icon-login"></i>
+                            </span>
+                            <input type="text" class="form-control dark-inp" placeholder="E-mail" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+
+                        <div class="input-group mb-3 lin-log">
+                            <span class="input-group-text dark-inp">
+                                <i class="fa-solid fa-lock icon-login"></i>
+                            </span>
+                            <input type="password" class="form-control dark-inp" placeholder="Senha" aria-label="Username" aria-describedby="basic-addon1">
+                            <button class="input-group-text dark-inp">
+                                <i class="fa-solid fa-eye color-icons"></i>
+                            </button>
+                        </div>
+                    </section>
+                    <a class="link-login d-block" href="">Esqueci minha senha</a>
+                    <button type="submit" class="btn btn-success btn-login">ENTRAR</button>
+                    <div class="reg-login">
+                        <p>
+                            Não tem uma conta?
+                            <a href="{% url 'register' %}" class="link-login">Registre-se</a>
+                        </p>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+{% endblock 'conteudo' %}

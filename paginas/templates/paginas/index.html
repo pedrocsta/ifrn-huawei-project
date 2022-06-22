@@ -27,12 +27,12 @@
             <!-- End -->
 
             <!-- About project -->
-            <section class="py-5 px-auto">
+            <section class="px-auto">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4 hidden-sm hidden-xs">
                             <div class="project-picture"><br>
-                                <img src="{% static 'img/huawei-ict-logo-red-2.png' %}" alt="" class="img-responsive wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">
+                                <img src="{% static 'img/huawei-ict-logo-red-2.png' %}" alt="" class="img-responsive wow slideInLeft">
                             </div> <!-- end picture -->
                         </div> <!-- end col -->
                         <div class="col-md-8">
@@ -74,7 +74,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active mb-3">
                             <div class="section-cards d-flex">
-                                <div class="card" style="width: 22rem;">
+                                <div class="card card-responsive">
                                     <img src="{% static 'img/cursos/cloud-service.png' %}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Cloud Service</h5>
@@ -95,7 +95,7 @@
                                     </div> <!-- end card body -->
                                 </div> <!-- end card -->
                                 
-                                <div class="card" style="width: 22rem;">
+                                <div class="card card-responsive">
                                     <img src="{% static 'img/cursos/ai.png' %}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Inteligência Artificial</h5>
@@ -115,7 +115,7 @@
                                     </div> <!-- end card body -->
                                 </div> <!-- end card -->
     
-                                <div class="card" style="width: 22rem;">
+                                <div class="card card-responsive">
                                     <img src="{% static 'img/cursos/datacom.png' %}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Datacom</h5>
@@ -139,7 +139,7 @@
     
                         <div class="carousel-item mb-3">
                             <div class="section-cards">
-                                <div class="card" style="width: 22rem;">
+                                <div class="card card-responsive">
                                     <img src="{% static 'img/cursos/5g.png' %}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Redes 5G</h5>
@@ -170,6 +170,95 @@
                         <span class="visually-hidden">Próximo</span>
                     </button>
                 </div>
+
+
+                <!-- Carousel section responsive -->
+                <div class="card-section">
+                    <div>
+                        <div class="card card-responsive">
+                            <img src="{% static 'img/cursos/cloud-service.png' %}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cloud Service</h5>
+                                <p class="card-text">
+                                    As tecnologias e serviços de nuvem em todo o mundo tornaram-se uma tendência. 
+                                    Nesse sentido, a computação...
+                                </p>
+                                <hr class="invis">
+                                <div class="row-card d-flex">
+                                    <div class="icons">
+                                        <i class="fa-regular fa-clock color-icons"></i>
+                                        <span class="me-1">40H</span>
+                                        <i class="fa-solid fa-calendar-days color-icons"></i>
+                                        <span>Em breve</span>
+                                    </div>
+                                    <a href="{% url 'cloud-service' %}" class="btn btn-success">Saiba Mais</a>
+                                </div> <!-- end card row -->
+                            </div> <!-- end card body -->
+                        </div> <!-- end card -->
+                        
+                        <div class="card card-responsive">
+                            <img src="{% static 'img/cursos/ai.png' %}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Inteligência Artificial</h5>
+                                <p class="card-text">
+                                    A certificação HCIA-IA destina-se a profissionais que precisam dominar as tecnologias de IA, aprender e usar...
+                                </p>
+                                <hr class="invis">
+                                <div class="row-card d-flex">
+                                    <div class="icons">
+                                        <i class="fa-regular fa-clock color-icons"></i>
+                                        <span class="me-1">45H</span>
+                                        <i class="fa-solid fa-calendar-days color-icons"></i>
+                                        <span>Em breve</span>
+                                    </div>
+                                    <a href="{% url 'artificial-intelligence' %}" class="btn btn-success">Saiba Mais</a>
+                                </div> <!-- end card row -->
+                            </div> <!-- end card body -->
+                        </div> <!-- end card -->
+                    </div>
+
+                    <div>
+                        <div class="card card-responsive">
+                            <img src="{% static 'img/cursos/datacom.png' %}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Datacom</h5>
+                                <p class="card-text">
+                                    Obtenha as habilidades e conhecimentos necessários para a configuração e manutenção das redes de dados. O foco...
+                                </p>
+                                <hr class="invis">
+                                <div class="row-card d-flex">
+                                    <div class="icons">
+                                        <i class="fa-regular fa-clock color-icons"></i>
+                                        <span class="me-1">70H</span>
+                                        <i class="fa-solid fa-calendar-days color-icons"></i>
+                                        <span>Em breve</span>
+                                    </div>
+                                    <a href="{% url 'datacom' %}" class="btn btn-success">Saiba Mais</a>
+                                </div> <!-- end card row -->
+                            </div> <!-- end card body -->
+                        </div> <!-- end card -->
+        
+                        <div class="card card-responsive">
+                            <img src="{% static 'img/cursos/5g.png' %}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Redes 5G</h5>
+                                <p class="card-text">
+                                    A 5G, que hoje está em vias de ser implantada no Brasil, é a culminação de um longo...
+                                </p>
+                                <hr class="invis">
+                                <div class="row-card d-flex">
+                                    <div class="icons">
+                                        <i class="fa-regular fa-clock color-icons"></i>
+                                        <span class="me-1">40H</span>
+                                        <i class="fa-solid fa-calendar-days color-icons"></i>
+                                        <span>Em breve</span>
+                                    </div>
+                                    <a href="{% url '5g-networks' %}" class="btn btn-success">Saiba Mais</a>
+                                </div> <!-- end card row -->
+                            </div> <!-- end card body -->
+                        </div> <!-- end card -->
+                    </div>
+                </div>
             </div>
             <!-- End --> 
 
@@ -181,15 +270,15 @@
                         <div class="coordinators-div-img mb-3">
                             <img src="{% static 'img/coordenadores/rodrigo-4.jpg' %}" alt="Foto do coordenador">
                         </div>
-                        <h3>Coordenador Geral</h2>
-                        <h4>Rodrigo Tertulino</h3>
+                        <h3 class="fs-4">Coordenador Geral</h2>
+                        <h4 class="fs-5">Rodrigo Tertulino</h3>
                     </div>
                     <div class="coordinators">
                         <div class="coordinators-div-img mb-3">
                             <img src="{% static 'img/coordenadores/jefferson.jpg' %}" alt="Foto do vice-coordenador">
                         </div>
-                        <h3>Vice-coordenador</h2>
-                        <h4>Jefferson Silva</h3>
+                        <h3 class="fs-4">Vice-coordenador</h2>
+                        <h4 class="fs-5">Jefferson Silva</h3>
                     </div>
                 </div>
             </section>
