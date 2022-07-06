@@ -62,12 +62,17 @@ code {
 }
 
 .section-cards {
-    justify-content: space-between;
+    justify-content: center;
     padding: 2% 10%;
 }
 
+.card-text{
+    height: 72px;
+}
+
 .card-responsive {
-    width: 22rem;
+    width: 25rem;
+    margin: 0 1.5rem;
 }
 
 .row-card {
@@ -87,13 +92,14 @@ code {
 
 .coordinators-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 5% 0;
 }
 
 .coordinators {
     border: 1px solid gray;
     padding: 4% 2%;
+    margin: 0 5%;
     box-shadow: 0 0 .5rem gray;
 }
 
@@ -107,11 +113,12 @@ code {
 }
 
 .imgs-lab {
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .card-img {
     width: 300px;
+    margin: 0 5%;
 }
 
 .text-ident {
@@ -541,4 +548,8 @@ a.disabled {
 
 .card-section {
     display: none;
+}
+
+.div-instru{
+    margin: 0 5rem;
 }
